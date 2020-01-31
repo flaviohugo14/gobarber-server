@@ -1,8 +1,7 @@
 import express from 'express';
-import dotenv from 'dotenv';
 import routes from './routes';
 
-dotenv.config();
+import './database';
 
 class App {
   constructor() {
@@ -21,4 +20,4 @@ class App {
   }
 }
 
-export default new App();
+export default new App().server;
