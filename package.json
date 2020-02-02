@@ -10,6 +10,7 @@
     "dev:debug": "nodemon --inspect src/server.js"
   },
   "dependencies": {
+    "@types/mongoose": "^5.7.0",
     "bcryptjs": "^2.4.3",
     "date-fns": "^2.0.0-beta.5",
     "dotenv": "^8.2.0",
